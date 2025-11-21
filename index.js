@@ -7,7 +7,7 @@ app.use(express.json());
 
 app.get('/', (req, res) => {
   res.json({
-    message: 'Chào mừng bạn a',
+    message: 'Chào mừng bạn đến với trang web của tôi',
   });
 });
 
